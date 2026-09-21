@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class GradeAvgPt1 {
 
 	public static void main(String[] args) {
-		// Declaration of Grades
+		// Declarations of Grades
 		
 		int grade1;
 		int grade2;
