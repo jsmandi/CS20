@@ -6,7 +6,7 @@ public class PizzaCost {
 
 	public static void main(String[] args) {
 		
-		// Declaration
+		// Declaration.
 		
 		double LaborCost = 0.75;
 		double RentCost = 1.00;
