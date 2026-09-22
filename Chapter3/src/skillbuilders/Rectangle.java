@@ -9,11 +9,10 @@ public class Rectangle {
 		//Declaration 
 				int length;
 				int width;
-<<<<<<< master
+
 				int area;
 				int perimeter;
-=======
->>>>>>> 4cd51c2 9:40 AM
+
 				
 				//Create Scanner object 
 				Scanner userinput = new Scanner(System.in);
@@ -25,7 +24,7 @@ public class Rectangle {
 				// 
 				System.out.print("Enter length: ");
 				length = userinput.nextInt();
-<<<<<<< master
+
 				
 				// specify formula for area and perimeter
 				perimeter = (2 * width) + (2 * length);
@@ -34,8 +33,7 @@ public class Rectangle {
 				// Print Perimeter and Area of Rectangle
 				System.out.println("Perimeter of the Rectangle is: " + perimeter);
 				System.out.println("Area of the Rectangle is: " + area);
-=======
->>>>>>> 4cd51c2 9:40 AM
+
 	}
 
 }
