@@ -13,7 +13,7 @@ public class DigitsSum {
         
         int sum = 0;
         
-        // Loop from 1 up to t
+        // Loop from 1 up to number written
         for (int i = 1; i <= t; i++) {
             sum += i; // Adds the current number to the total sum
         }
