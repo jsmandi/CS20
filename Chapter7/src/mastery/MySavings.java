@@ -10,7 +10,7 @@ public class MySavings {
         public PiggyBank() {
             total = 0.0;
         }
-
+        // Define Pennies, nickels, dime and quarters
         public void addPenny() { total += 0.01; }
         public void addNickel() { total += 0.05; }
         public void addDime() { total += 0.10; }
@@ -31,7 +31,7 @@ public class MySavings {
         Scanner userinput = new Scanner(System.in);
         PiggyBank bank = new PiggyBank();
         int choice = -1;
-
+        // choose
         while (choice != 0) {
             System.out.println("\n1. Show total in bank.");
             System.out.println("2. Add a penny.");
@@ -43,7 +43,7 @@ public class MySavings {
             System.out.print("Enter your choice: ");
             
             choice = userinput.nextInt();
-
+            // Depending on number inputed, the value is different
             if (choice == 1) {
                 System.out.printf("Total in bank: $%.2f\n", bank.getTotal());
             } else if (choice == 2) {

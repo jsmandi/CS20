@@ -6,7 +6,7 @@ public class DigitExtractor {
 
     public static class Num {
         private int number;
-
+        // Define Whole, Ones, Tens and Hundreds
         public Num(int number) {
             this.number = number;
         }
@@ -46,7 +46,7 @@ public class DigitExtractor {
             System.out.print("Enter your choice: ");
             
             choice = userinput.next().toUpperCase().charAt(0);
-
+            // Choice
             if (choice == 'W') {
                 System.out.println("The whole number is: " + numObj.getWhole());
             } else if (choice == 'O') {
