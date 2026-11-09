@@ -35,9 +35,7 @@ public class CirclesP3of4 {
             return Math.PI * Math.pow(radius, 2);
         }
 
-        /**
-         * Class method (static) that prints the formula for a circle's area.
-         */
+        
         public static void displayAreaFormula() {
             System.out.println("The formula for the area of a circle is A = Pi * r * r");
         }
