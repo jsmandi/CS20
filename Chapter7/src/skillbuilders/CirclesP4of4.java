@@ -49,11 +49,11 @@ public class CirclesP4of4 {
         
         @Override
         public boolean equals(Object obj) {
-            // If they point to the exact same memory address, they are equal
+            
             if (this == obj) {
                 return true;
             }
-            // If the passed object is null or not a Circle class, they cannot be equal
+            
             if (obj == null || getClass() != obj.getClass()) {
                 return false;
             }
@@ -64,22 +64,22 @@ public class CirclesP4of4 {
     }
 
     public static void main(String[] args) {
-        // Instantiate test objects
+  
         Circle circle1 = new Circle(4.5);
         Circle circle2 = new Circle(4.5);
         Circle circle3 = new Circle(7.0);
 
         System.out.println("Testing toString() ");
-        // Passing the objects directly to println automatically calls their toString() method
+        
         System.out.println("Circle 1: " + circle1);
         System.out.println("Circle 2: " + circle2);
         System.out.println("Circle 3: " + circle3);
 
         System.out.println("\nTesting equals()");
-        // Test matching objects
-        System.out.println("Does circle1 equal circle2? " + circle1.equals(circle2)); // Expected: true
+       
+        System.out.println("Does circle1 equal circle2? " + circle1.equals(circle2)); 
         
-        // Test non-matching objects
-        System.out.println("Does circle1 equal circle3? " + circle1.equals(circle3)); // Expected: false
+        
+        System.out.println("Does circle1 equal circle3? " + circle1.equals(circle3));
     }
 }
