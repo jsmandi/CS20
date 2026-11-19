@@ -43,7 +43,7 @@ public class MySavings {
             System.out.print("Enter your choice: ");
             
             choice = userinput.nextInt();
-            // Depending on number inputed, the value is different
+            // Depending on number inputed value is different
             if (choice == 1) {
                 System.out.printf("Total in bank: $%.2f\n", bank.getTotal());
             } else if (choice == 2) {
